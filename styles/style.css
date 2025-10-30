@@ -1,0 +1,628 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: rgb(250, 199, 32);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+a {
+  font-size: 19px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+a:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  color: white;
+}
+.nv2 {
+  width: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Banner 1 */
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  margin: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 250px;
+}
+
+.banner img {
+  width: 47vw;
+  height: 67vh;
+}
+
+.text1 {
+  width: 45vw;
+  margin: 98px 10px;
+  margin-left: 90px;
+}
+
+.banner h1 {
+  font-size: 70px;
+  padding-right: 100px;
+  transform: scaleY(1.3);
+  padding-bottom: 20px;
+}
+.banner p {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.banner button {
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: rgb(250, 199, 32);
+  width: 20vh;
+  height: 6vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.banner button:hover {
+  background-color: rgb(241, 199, 58);
+  transform: scale(1.1);
+  transition: 0.4s;
+  color: white;
+}
+
+/* Banner intermedio */
+
+.bannerinter {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(128, 128, 128, 0.308);
+  justify-content: space-around;
+  width: 82%;
+  height: 55vh;
+  align-items: center;
+  padding: 90px;
+  margin: auto;
+  margin-left: 120px;
+  background: #e6e6e6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 780px;
+  z-index: 10;
+}
+.bannerinter img {
+  width: 15vw;
+  height: 30vh;
+  margin-left: 100px;
+}
+.text3 {
+  width: 30vw;
+}
+.text3 h1 {
+  color: rgb(236, 189, 36);
+  font-size: 3.5vw;
+  padding-right: 20px;
+}
+.text3 p {
+  font-size: 1vw;
+  padding-top: 20px;
+  width: 22vw;
+}
+
+.text3 p span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/*Segundo Banner*/
+
+.bannerWE {
+  padding-top: 230px;
+  background-color: rgb(250, 199, 32);
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 130vh;
+}
+
+.bannerWE h1 {
+  font-weight: 700;
+  transform: scaleY(1.3);
+  font-size: 70px;
+  padding-right: 120px;
+}
+
+.text2 {
+  width: 55vw;
+  margin: 100px 10px;
+  margin-left: 100px;
+  margin-right: 560px;
+}
+
+.bannerWE p {
+  margin-top: 30px;
+  font-size: 20px;
+  width: 25vw;
+}
+
+.bannerWE img {
+  position: absolute;
+    top: 180vh;
+  z-index: 10;
+ margin-left: 45vw;
+  width: 51vw;
+  height: 65vh;
+}
+
+.bannerWE button {
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  width: 20vh;
+  height: 6vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.bannerWE button:hover {
+  background-color: rgb(12, 12, 12);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+/* Banner 3 */
+
+.banner3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.banner3_1 {
+  margin-top: 80px;
+  width: 80%;
+  height: 80vh;
+  background-color: rgba(128, 128, 128, 0.244);
+  display: flex;
+  flex-direction: row;
+  background: #e6e6e6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.banner3_1 img {
+  width: 40vw;
+  height: 100%;
+}
+
+.text4 {
+  padding: 50px;
+}
+.text4 h1 {
+  color: rgb(251, 200, 33);
+  font-size: 50px;
+  font-weight: 700;
+  transform: scaleY(1.5);
+}
+.text4 p {
+  margin-top: 30px;
+  width: 20vw;
+  font-size: 17px;
+}
+.text4 button {
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  width: 20vh;
+  height: 6vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.text4 button:hover {
+  background-color: rgb(12, 12, 12);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+.grafic img {
+  margin-left: 15vw;
+  margin-top: 30px;
+  width: 17vw;
+  height: 33vh;
+}
+
+/* Banner 4 */
+
+.banner4 {
+  width: 100%;
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.text5 {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text5 h1 {
+  margin-top: 30px;
+  color: rgb(251, 200, 33);
+  font-size: 23px;
+  font-weight: 700;
+  transform: scaleY(1.6);
+  text-align: center;
+}
+.text5 p {
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.749);
+  font-size: 20px;
+  text-align: center;
+  width: 50vw;
+  margin-top: 15px;
+}
+
+.img4 {
+  width: 65vw;
+  height: 70vh;
+}
+
+.img4 img {
+  height: 67vh;
+  width: 65vw;
+}
+
+.text5 button {
+  font-size: 15px;
+  background-color: rgb(251, 200, 33);
+  color: black;
+  width: 20vh;
+  height: 7vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.text5 button:hover {
+  background-color: rgb(255, 253, 253);
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+/* Banner 5 */
+
+.banner5 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.banner5_1 {
+  margin-top: 80px;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner5_1 img {
+  width: 45vw;
+  height: 100%;
+}
+
+
+.text6 {
+  padding: 50px;
+}
+.text6 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  transform: scaleY(1.5);
+}
+.text6 p {
+  margin-top: 30px;
+  width: 27vw;
+  font-size: 17px;
+  text-align: inherit;
+}
+.text6 button {
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: rgb(251, 200, 33);
+  width: 20vh;
+  height: 6vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.text6 button:hover {
+  background-color: rgb(251, 200, 33);
+  color: white;
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+/* banner 6 */
+
+.banner6_1 {
+  background-color: rgba(128, 128, 128, 0.211);
+    width: 100%;
+  height: 102vh;
+
+}
+
+.banner6 {
+
+  display: flex;
+  flex-direction: row;
+  margin: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 250px;
+  
+}
+
+.banner6 img {
+margin-top: 80px;
+  width: 47vw;
+  height: 87vh;
+  margin-right: 80px;
+}
+
+.text7 {
+padding-top: 200px;
+  width: 45vw;
+  margin: 98px 10px;
+  margin-left: 60px;
+
+}
+
+.banner6 h1 {
+  font-size: 55px;
+  padding-right: 30px;
+  transform: scaleY(1.3);
+  padding-bottom: 20px;
+}
+.banner6 p {
+  padding-top: 30px;
+  font-size: 20px;
+  width: 35vw;
+}
+
+.banner6 button {
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: rgb(250, 199, 32);
+  width: 20vh;
+  height: 6vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.banner6 button:hover {
+  background-color: rgb(241, 199, 58);
+  transform: scale(1.1);
+  transition: 0.4s;
+  color: white;
+}
+
+/* banner 7 */
+
+.banner7 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.banner7_1 {
+  margin-top: 80px;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text8 {
+  padding: 50px;
+}
+.text8 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  transform: scaleY(1.5);
+  color: rgb(234, 182, 9);
+}
+.text8 p {
+  margin-top: 30px;
+  width: 35vw;
+  font-size: 17px;
+  text-align: inherit;
+}
+.text8 button {
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: rgb(0, 0, 0);
+  width: 26vh;
+  color: white;
+  height: 6vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.text8 button:hover {
+  background-color: rgb(251, 200, 33);
+  color: white;
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.info{
+background-color: black;
+  width: 100% ;
+  height: 70vh;
+  color: white;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.footer-text {
+  font-size: 13px;
+  line-height: 1.4;
+  color: white;
+}
+
+/* Banner 8 */
+
+.banner8 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 200, 33);
+}
+
+.text9 {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text9 h1 {
+  margin-top: 30px;
+  color: rgb(251, 200, 33);
+  font-size: 30px;
+  font-weight: 700;
+  transform: scaleY(1.6);
+  color: black;
+  text-align: center;
+}
+.text9 p {
+  margin-bottom: 25px;
+  
+  font-size: 20px;
+  text-align: center;
+  width: 50vw;
+  margin-top: 15px;
+}
+
+.img9 {
+  width: 65vw;
+  height: 70vh;
+}
+
+.img9 img {
+  height: 67vh;
+  width: 65vw;
+}
+
+.text9 button {
+  font-size: 15px;
+  margin-top: 40px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 20vh;
+  height: 7vb;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.text9 button:hover {
+  background-color: rgb(255, 253, 253);
+  color: black;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+/* footer */
+
+footer {
+  background-color: rgb(27, 27, 27);
+  color: white;
+   
+  padding: 40px;
+}
+.textfo {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  color:  rgb(251, 200, 33);
+margin-bottom: 100px;
+}
+.p{
+  margin-left: 40px;
+}
+.f{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+.x{
+  color: rgb(251, 200, 33) ;
+}
+.redes{
+display: flex;
+justify-content: space-around;
+width: 10vw;
+height: 3vh;
+}
+
